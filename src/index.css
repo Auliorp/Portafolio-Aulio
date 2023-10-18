@@ -5,3 +5,8 @@
 * {
    scroll-behavior: smooth;
 }
+@media (max-width: 600px) {
+   .tablet-container {
+      margin-left: 3rem;
+   }
+}
