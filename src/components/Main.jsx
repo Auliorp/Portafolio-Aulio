@@ -2,10 +2,6 @@ import { TypeAnimation } from "react-type-animation";
 import { FaGithub, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 
 const Main = () => {
-   const handleRedirect = (url) => {
-      window.location.href = url;
-   };
-
    return (
       <div id="main">
          <img
@@ -37,31 +33,27 @@ const Main = () => {
                   />
                </h2>
                <div className="flex justify-between pt-6 max-w-[120px] w-full">
-                  <FaLinkedinIn
-                     onClick={() =>
-                        handleRedirect(
-                           "https://www.linkedin.com/in/auliorovero/"
-                        )
-                     }
-                     className="cursor-pointer"
-                     size={20}
-                  />
-                  <FaGithub
-                     onClick={() =>
-                        handleRedirect("https://github.com/Auliorp")
-                     }
-                     className="cursor-pointer"
-                     size={20}
-                  />
-                  <FaInstagram
-                     onClick={() =>
-                        handleRedirect(
-                           "https://www.instagram.com/aulioroverop/"
-                        )
-                     }
-                     className="cursor-pointer"
-                     size={20}
-                  />
+                  <a
+                     href="https://www.linkedin.com/in/auliorovero/"
+                     target="_blank"
+                     rel="noopener noreferrer"
+                  >
+                     <FaLinkedinIn className="cursor-pointer" size={20} />
+                  </a>
+                  <a
+                     href="https://github.com/Auliorp"
+                     target="_blank"
+                     rel="noopener noreferrer"
+                  >
+                     <FaGithub className="cursor-pointer" size={20} />
+                  </a>
+                  <a
+                     href="https://www.instagram.com/aulioroverop/"
+                     target="_blank"
+                     rel="noopener noreferrer"
+                  >
+                     <FaInstagram className="cursor-pointer" size={20} />
+                  </a>
                </div>
             </div>
          </div>
