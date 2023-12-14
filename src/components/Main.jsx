@@ -1,9 +1,9 @@
 import { TypeAnimation } from "react-type-animation";
 import { FaGithub, FaLinkedinIn, FaInstagram } from "react-icons/fa";
-
-const Main = () => {
+//componente que muestra el home
+const Home = () => {
    return (
-      <div id="main">
+      <div id="home">
          <img
             className="w-full h-screen object-cover object-left scale-x-[1]"
             src="https://cocosolution.com/cms/uploads/1657204741-o_1fj38p0rk1m0oc6fjbpfda4k1a.png"
@@ -61,4 +61,4 @@ const Main = () => {
    );
 };
 
-export default Main;
+export default Home;

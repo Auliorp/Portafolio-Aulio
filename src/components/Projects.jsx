@@ -3,7 +3,7 @@ import adipweb from "../assets/adipweb.jpg";
 import foodpi from "../assets/foodpi.jpg";
 import rickandmorty from "../assets/rickandmorty.jpg";
 import tasks from "../assets/tasks.jpg";
-
+//contenedor que muestra los Proyectos
 const Projects = () => {
    return (
       <div

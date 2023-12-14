@@ -1,16 +1,18 @@
 import Sidenav from "./components/Sidenav";
-import Main from "./components/Main";
+import Home from "./components/Main";
 import Work from "./components/Work";
 import Projects from "./components/Projects";
+import AboutMe from "./components/AboutMe";
 import Contact from "./components/Contact";
-
+//se arma la estructura visual de la pagina web.
 function App() {
    return (
       <div>
          <Sidenav />
-         <Main />
+         <Home />
          <Work />
          <Projects />
+         <AboutMe />
          <Contact />
       </div>
    );

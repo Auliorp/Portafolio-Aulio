@@ -13,6 +13,8 @@ const data = [
       details: "detalle jkasdfjskfsdjksdfkj",
    },
 ];
+
+//componente que muestra los Trabajos
 const Work = () => {
    return (
       <div

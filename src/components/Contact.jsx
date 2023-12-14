@@ -1,4 +1,5 @@
 const Contact = () => {
+   //componente que muestra el formulario de contacto
    return (
       <div
          id="contact"
