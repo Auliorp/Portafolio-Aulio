@@ -1,18 +1,4 @@
 import WorkItem from "./WorkItem";
-const data = [
-   {
-      year: 2023,
-      title: "titulo",
-      duration: "duracion en el trabajo",
-      details: "detalle jkasdfjskfsdjksdfkj",
-   },
-   {
-      year: 2023,
-      title: "titulo",
-      duration: "duracion en el trabajo",
-      details: "detalle jkasdfjskfsdjksdfkj",
-   },
-];
 
 //componente que muestra los Trabajos
 const Work = () => {
@@ -24,15 +10,7 @@ const Work = () => {
          <h1 className="text-4xl font-bold text-center text-[#001b5e]">
             Trabajos
          </h1>
-         {data.map((item, idx) => (
-            <WorkItem
-               key={idx}
-               year={item.year}
-               title={item.title}
-               duration={item.duration}
-               details={item.details}
-            />
-         ))}
+         <WorkItem />
       </div>
    );
 };

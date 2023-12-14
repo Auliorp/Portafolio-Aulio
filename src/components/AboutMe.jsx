@@ -1,3 +1,5 @@
+import AboutMeItem from "./AboutMeItem";
+
 const AboutMe = () => {
    return (
       <div
@@ -10,6 +12,7 @@ const AboutMe = () => {
          <p className="text-center py-8">
             Una pequeña introduccion sobre quien soy.
          </p>
+         <AboutMeItem />
       </div>
    );
 };
