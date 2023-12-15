@@ -1,5 +1,5 @@
 import AboutMeItem from "./AboutMeItem";
-
+//Componente que muestra informacion sobre mi
 const AboutMe = () => {
    return (
       <div

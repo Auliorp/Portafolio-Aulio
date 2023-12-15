@@ -1,6 +1,5 @@
 import { dataAboutMe } from "../shared/enums";
-/* import Proptypes from "prop-types";
-import ProjectItem from "./ProjectItem"; */
+//aca se cargan los datos para ser exportados y usados en el componente principal.
 const AboutMeItem = () => {
    return (
       <div className="flex items-center justify-center h-screen">
@@ -23,9 +22,5 @@ const AboutMeItem = () => {
       </div>
    );
 };
-
-/* ProjectItem.propTypes = {
-   img: Proptypes.string.isRequired,
-}; */
 
 export default AboutMeItem;

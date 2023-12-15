@@ -1,11 +1,12 @@
 export const dataAboutMe = [
    {
       resume:
-         "aqui ira una pequeño resumen sobre mi pruebaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-      description: "texto de pruebaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+         "Soy una persona tranquila, divertida y dispuesta a salir de aventura con mis amigos.",
+      description:
+         "Me considero una persona amigable, comunicativa y respetuosa. tengo 24 años de edad y soy de nacionalidad Venezolana, viviendo actialmente el Santiago de Chile. ",
       name: "Aulio",
       lastName: "Rovero",
-      image: "https://scontent.fscl9-1.fna.fbcdn.net/v/t39.30808-6/307696184_5696778777049269_444685406096228565_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=AcYoIOFeqBsAX9Ch7Hg&_nc_ht=scontent.fscl9-1.fna&oh=00_AfBXRdJvLRKV-bqFMH5aqW2rCoMkYSKjZe4l4jz51pRkfg&oe=65805208",
+      image: "https://res.cloudinary.com/dz7ivvcp2/image/upload/v1702664694/Portafolio/2c361060-5d82-4e96-bd03-b87d2f654046_zjgnrx.jpg",
    },
 ];
 
@@ -21,5 +22,32 @@ export const dataWorks = [
       title: "Mentalis",
       duration: "1 mes",
       details: "Static page realizada como proyecto freelance.",
+   },
+];
+
+export const dataProjects = [
+   {
+      image: "https://res.cloudinary.com/dz7ivvcp2/image/upload/v1702664809/Portafolio/adipweb_darutp.jpg",
+      title: "AD.I.P web",
+      technologies: {},
+      urlDeploy: "https://front-deploy-adipweb.onrender.com/#/",
+   },
+   {
+      image: "https://res.cloudinary.com/dz7ivvcp2/image/upload/v1702664810/Portafolio/foodpi_ftcsfz.jpg",
+      title: "Food PI web",
+      technologies: {},
+      urlDeploy: "",
+   },
+   {
+      image: "https://res.cloudinary.com/dz7ivvcp2/image/upload/v1702664816/Portafolio/rickandmorty_nlt4t6.jpg",
+      title: "Rick and Morty web",
+      technologies: {},
+      urlDeploy: "",
+   },
+   {
+      image: "https://res.cloudinary.com/dz7ivvcp2/image/upload/v1702664810/Portafolio/tasks_xaezkj.jpg",
+      title: "Tasks web",
+      technologies: {},
+      urlDeploy: "",
    },
 ];
